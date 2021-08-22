@@ -40,7 +40,7 @@ body {
   user-select: none;
   width: 266px;
   height: 100vh;
-  padding-top: 74px;
+  padding-top: 40px;
   border-right: 1px solid #f1f1f1;
   background-color: #fafafa;
   div {
@@ -60,7 +60,7 @@ body {
   background-color: whitesmoke;
   height: 100vh;
   width: calc(922px - 266px);
-  padding: 74px 20px 0px;
+  padding: 40px 20px 0px;
   .add-task-btn {
     cursor: pointer;
     .plus {
@@ -88,28 +88,6 @@ body {
       margin-top: 10px;
       display: flex;
       justify-content: space-between;
-      .add-btn {
-        background-color: #db4c13;
-        color: white;
-        border: 1px solid transparent;
-        margin-right: 5px;
-        font-weight: bold;
-        font-size: 13px;
-        padding: 6px 12px 7px 12px;
-        border-radius: 3px !important;
-        &:disabled {
-          background-color: grey;
-        }
-        &:active {
-          transform: scale(0.9);
-        }
-      }
-      .cancel-btn {
-        all: unset;
-        color: #555;
-        font-size: 14px;
-        margin: 0px 5px;
-      }
     }
   }
   .task-items-Container {
