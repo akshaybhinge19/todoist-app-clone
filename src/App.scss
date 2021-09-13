@@ -49,6 +49,8 @@ body {
     padding: 15px;
     &.active {
       background-color: whitesmoke;
+      box-shadow: 2px 2px 2px whitesmoke;
+      font-weight: bold;
     }
     .icon {
       margin-right: 10px;
